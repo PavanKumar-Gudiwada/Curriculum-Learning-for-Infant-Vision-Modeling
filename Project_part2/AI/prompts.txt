@@ -1,0 +1,21 @@
+AI tools used: google colab, ChatGPT and copilot
+
+prompt1: how can i make training run faster?
+
+promt2: give me pictures of babies at 1month, 7 months, and 2 year old. let the drawing be black and white with only outlines.
+
+promt3: will running: gc.collect() torch.cuda.empty_cache() after every epoch give improvements?
+
+prompt4: what does gc.collect() do?
+
+promt5: how does mixed precision training work?
+
+promt6: can persistent workers make the training run slower?
+
+promt7: how do i include non_blocking=True for my dataloader?
+
+promt8: if only 0.7 gb of 4 gb dedicated GPU memory is used then can i increase the batch size?
+
+promt9: what is the usual batch size used when training with imagenet 200?
+
+googleColab: zipping the file on local PC -> enable runtime to tesla t4 GPU -> uploading to colab instance -> unzip the file (!unzip) -> run train.py file (!python train.py)
